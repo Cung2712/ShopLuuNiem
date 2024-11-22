@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\.vs\tasks.vs.json" />
+    <Content Include="wwwroot\.vs\Template\v17\DocumentLayout.backup.json" />
+    <Content Include="wwwroot\.vs\Template\v17\DocumentLayout.json" />
+    <Content Include="wwwroot\.vs\VSWorkspaceState.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="elFinder.NetCore" Version="1.4.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="SlugGenerator" Version="2.0.2" />
+    <PackageReference Include="X.PagedList.Mvc.Core" Version="10.5.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\.vs\slnx.sqlite" />
+    <None Include="wwwroot\.vs\Template\config\applicationhost.config" />
+    <None Include="wwwroot\.vs\Template\FileContentIndex\01ade0b5-e896-4fec-bf86-c517b5531784.vsidx" />
+    <None Include="wwwroot\.vs\Template\FileContentIndex\9e650c40-64bd-438c-b440-739ee31ddf6d.vsidx" />
+  </ItemGroup>
+
+</Project>
